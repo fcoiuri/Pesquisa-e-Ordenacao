@@ -4,6 +4,10 @@ import timeit
 
 numbers = [10000, 20000, 40000, 50000, 100000, 200000]
 #numbers = [100000, 200000, 400000, 500000, 1000000, 2000000]
+'''
+Observe: Deixei executando até 2.000.000 por mais de 20 HORAS.
+E não terminou, então fiz até 200.000 que por sua vez demorou mais de 5 horas.
+'''
 
 def drawGraph(x,y, xl = "Nº de Elementos", yl = "Tempo(s)", nam="img"):
     fig = plt.figure(figsize=(10, 13))
