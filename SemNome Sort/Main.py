@@ -6,7 +6,7 @@ import timeit
 def drawGraph(x,y, xl = "Nº de Elementos", yl = "Tempo(s)", nam="img"):
     fig = plt.figure(figsize=(10, 13))
     ax = fig.add_subplot(111)
-    ax.plot(x,y, label = "Bucket Sort")
+    ax.plot(x,y, label = "SemNome Sort")
     ax.legend(bbox_to_anchor=(1, 1),bbox_transform=plt.gcf().transFigure)
     plt.ylabel(yl)
     plt.xlabel(xl)
